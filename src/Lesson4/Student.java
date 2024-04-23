@@ -2,9 +2,9 @@ package Lesson4;
 
 public class Student {
     int id;
-    String name;
-    String surName;
-    int course;
+    public String name;
+    public String surName;
+    public int course;
     double averageGradeMath;
     double averageGradeEconomy;
     double averageGradeForeignLanguage;
@@ -12,7 +12,7 @@ public class Student {
     Student() {
         this(0, "", "", 0, 0, 0, 0);
     }
-    Student(int id, String name, String surName, int course) {
+    public Student(int id, String name, String surName, int course) {
         this(id, name, surName, course, 0, 0, 0);
     }
 
