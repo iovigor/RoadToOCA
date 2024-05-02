@@ -32,5 +32,4 @@ public class StudentTest {
         compareStudentsDetailed(st1, st2);
 
     }
-
 }
